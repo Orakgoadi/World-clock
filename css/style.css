@@ -1,4 +1,11 @@
+h1 {
+    text-align: center;
+}
 body{
     background: peachpuff;
     color: #000;
+}
+
+footer{
+    text-align: center;
 }
