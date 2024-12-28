@@ -1,25 +1,25 @@
 function updateTime() {
-  
-  let kairoElement = document.querySelector("#kairo");
-  if (kairoElement) {
-    let kairoDateElement = kairoElement.querySelector(".date");
-    let kairoTimeElement = kairoElement.querySelector(".time");
-    let kairoTime = moment().tz("Africa/Kairo");
+  // Cairo
+  let cairoElement = document.querySelector("#cairo");
+  if (cairoElement) {
+    let cairoDateElement = cairoElement.querySelector(".date");
+    let cairoTimeElement = cairoElement.querySelector(".time");
+    let cairoTime = moment().tz("Africa/Cairo");
 
-    kairoDateElement.innerHTML = kairoTime.format("MMMM	Do YYYY");
-    kairoTimeElement.innerHTML = kairoTime.format(
+    cairoDateElement.innerHTML = cairoTime.format("MMMM	Do YYYY");
+    cairoTimeElement.innerHTML = cairoTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
 
-  
+  // Rome
   let romeElement = document.querySelector("#rome");
   if (romeElement) {
     let romeDateElement = romeElement.querySelector(".date");
     let romeTimeElement = romeElement.querySelector(".time");
     let romeTime = moment().tz("Europe/Rome");
 
-    romeDateElement.innerHTML = romeTime.format("MMMM	Do YYYY");
+    romeDateElement.innerHTML = romeTime.format("MMMM Do YYYY");
     romeTimeElement.innerHTML = romeTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
