@@ -25,7 +25,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: rgb(13, 12, 49);
+  background: rgb(13, 13, 49);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -61,5 +61,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(244, 242, 242, 0.8);
+  color: white;
 }
